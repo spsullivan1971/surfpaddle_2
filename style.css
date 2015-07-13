@@ -1,0 +1,118 @@
+body {
+
+	display: block;
+	margin-top: 0px;
+	max-width: 1200px;
+
+}
+
+.header-title {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: inherit;
+	font-size: 5em;
+	color: white;
+
+}
+
+.subtitle {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	position: relative;
+	top:40%;
+	transform: translate(0%);
+	font-family: inherit;
+	font-size: 1em;
+	color: lightgrey;
+}
+
+
+.headerwaves {
+  width: 1210px;
+  height: 527px;
+  top: 0px;
+  left: 0px;
+  z-index: 2147483646;
+	background-image: url(images/Waves_in_pacifica_1.png);
+	background-repeat: no-repeat;
+}
+
+#wrapper {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.article {
+
+	margin-top: 20px;
+	margin-left: 100px;
+	display: block;
+	float: left;
+  width: 50%;
+
+}
+
+a:link {
+  color: #8ae7ea;
+}
+
+a:visited {
+  color:#6edaea
+}
+
+.article-titles {
+	color: #02779E;
+}
+
+.byline-photo {
+	margin left: 20px;
+	max-width: 30:;
+	min-width: 10%;
+
+}
+
+.author {
+
+	color: #79b2dd;
+
+}
+
+
+
+.quote {
+	color: #79b2dd;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.aside {
+  float: right;
+  width: 30%;
+	margin-top: 35px;
+	position: relative;
+	top: 55%;
+	border-bottom: 2px solid lightgrey;
+
+}
+
+
+.social-media {
+	margin-top: 2px;
+	display: inline-block;
+	float: left;
+	color: lightgrey;
+	font-size: 1em;
+	font-family: inherit;
+}
+
+}
+
+.footer {
+  clear: both;
+  margin-bottom: 0;
+}
