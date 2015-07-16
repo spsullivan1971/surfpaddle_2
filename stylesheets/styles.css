@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6{
   height: 300px;
   position: relative;
   left:0;
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/landingImage.jpg');
+  background: linear-gradient(rgba(29,113,182,.50), rgba(29,113,182,.50)), url('../images/Waves_in_pacifica_1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -195,7 +195,7 @@ blockquote{
 }
 
 #ad img{
-  width:100%;
+  width:50%;
 }
 
 #ad a{
@@ -223,7 +223,7 @@ blockquote{
   padding: 30px 0px 30px 0px;
 }
 
-#popularPosts ul{
+#posts ul{
   width: 100%;
   display: block;
   float: left;
@@ -232,7 +232,7 @@ blockquote{
   font-weight: bold;
 }
 
-#popularPosts li{
+#posts li{
   color: black;
   position: relative;
   float: left;
@@ -241,13 +241,13 @@ blockquote{
   transition: color 1s ease;
 }
 
-#popularPosts p{
+#Posts p{
   position: absolute;
   bottom: 0;
   font-size: 25px;
 }
 
-#popularPost1{
+#Post1{
   background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfing.jpg');
   width: 25%;
   height: 300px;
@@ -257,13 +257,13 @@ blockquote{
   position:relative;
 }
 
-#popularPost1:hover{
+#Post1:hover{
   background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/surfing.jpg');
   background-size: cover;
   color: white;
 }
 
-#popularPost2{
+#Post2{
   background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/tropical.jpg');
   width: 25%;
   height: 300px;
@@ -273,13 +273,13 @@ blockquote{
   position:relative;
 }
 
-#popularPost2:hover{
+#Post2:hover{
   background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/tropical.jpg');
   background-size: cover;
   color: white;
 }
 
-#popularPost3{
+#Post3{
   background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfer.jpg');
   width: 25%;
   height: 300px;
@@ -289,13 +289,13 @@ blockquote{
   position:relative;
 }
 
-#popularPost3:hover{
+#Post3:hover{
   background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/surfer.jpg');
   background-size: cover;
   color: white;
 }
 
-#popularPost4{
+#Post4{
   background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/drinks.jpg');
   width: 25%;
   height: 300px;
@@ -305,7 +305,7 @@ blockquote{
   position:relative;
 }
 
-#popularPost4:hover{
+#Post4:hover{
   background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/drinks.jpg');
   background-size: cover;
   color: white;
