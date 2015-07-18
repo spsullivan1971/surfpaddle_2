@@ -248,7 +248,7 @@ blockquote{
 }
 
 #Post1{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfing.jpg');
+  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/bitchin_dog.jpg');
   width: 25%;
   height: 300px;
   margin: 0;
@@ -258,7 +258,7 @@ blockquote{
 }
 
 #Post1:hover{
-  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/surfing.jpg');
+  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/bitchin_dog.jpg');
   background-size: cover;
   color: white;
 }
