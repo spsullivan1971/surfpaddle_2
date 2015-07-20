@@ -111,11 +111,11 @@ section h1{
   font-size: 10px;
 }
 
-section ul{
+/*section ul{
   list-style: none;
   display: inline-block;
   float: left;
-}
+}*/
 
 section li{
   display: inline-block;
@@ -214,7 +214,8 @@ blockquote{
 
 #lowerMainBlock{
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
   width: 99%;
   text-align: center;
   border-style: solid;
@@ -225,7 +226,8 @@ blockquote{
 
 #posts ul{
   width: 100%;
-  display: block;
+  display: flex;
+  flex-direction: row;
   float: left;
   margin:0;
   padding: 0;
@@ -248,8 +250,8 @@ blockquote{
 }
 
 #Post1{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/bitchin_dog.jpg');
-  width: 25%;
+  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/kuka.png');
+  width: 23%;
   height: 300px;
   margin: 0;
   padding: 0;
@@ -258,14 +260,14 @@ blockquote{
 }
 
 #Post1:hover{
-  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/bitchin_dog.jpg');
+  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/kuka.png');
   background-size: cover;
   color: white;
 }
 
 #Post2{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/tropical.jpg');
-  width: 25%;
+  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/sunset.png');
+  width: 23%;
   height: 300px;
   margin: 0;
   padding: 0;
@@ -274,14 +276,14 @@ blockquote{
 }
 
 #Post2:hover{
-  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/tropical.jpg');
+  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/sunset.png');
   background-size: cover;
   color: white;
 }
 
 #Post3{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfer.jpg');
-  width: 25%;
+  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfer.png');
+  width: 23%;
   height: 300px;
   margin: 0;
   padding: 0;
@@ -290,14 +292,14 @@ blockquote{
 }
 
 #Post3:hover{
-  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/surfer.jpg');
+  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/surfer.png');
   background-size: cover;
   color: white;
 }
 
 #Post4{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/drinks.jpg');
-  width: 25%;
+  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/drinks.png');
+  width: 23%;
   height: 300px;
   margin: 0;
   padding: 0;
@@ -306,7 +308,7 @@ blockquote{
 }
 
 #Post4:hover{
-  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/drinks.jpg');
+  background: linear-gradient(rgba(29,113,182,0.25), rgba(29,113,182, 0.25)), url('../images/drinks.png');
   background-size: cover;
   color: white;
 }
