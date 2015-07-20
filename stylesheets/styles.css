@@ -195,7 +195,7 @@ blockquote{
 }
 
 #ad img{
-  width:50%;
+  width:100%;
 }
 
 #ad a{
@@ -250,7 +250,7 @@ blockquote{
 }
 
 #Post1{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/kuka.png');
+  background: linear-gradient(rgba(255,0,0,0.35), rgba(255,0,0,0.35)), url('../images/kuka.png');
   width: 23%;
   height: 300px;
   margin: 0;
@@ -266,7 +266,7 @@ blockquote{
 }
 
 #Post2{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/sunset.png');
+  background: linear-gradient(rgba(255,0,0,0.35), rgba(255,0,0,0.35)), url('../images/sunset.png');
   width: 23%;
   height: 300px;
   margin: 0;
@@ -282,7 +282,7 @@ blockquote{
 }
 
 #Post3{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/surfer.png');
+  background: linear-gradient(rgba(255,0,0,0.35), rgba(255,0,0,0.35)), url('../images/surfer.png');
   width: 23%;
   height: 300px;
   margin: 0;
@@ -298,7 +298,7 @@ blockquote{
 }
 
 #Post4{
-  background: linear-gradient(rgba(29,113,182,.75), rgba(29,113,182,.75)), url('../images/drinks.png');
+  background: linear-gradient(rgba(255,0,0,0.35), rgba(255,0,0,0.35)), url('../images/drinks.png');
   width: 23%;
   height: 300px;
   margin: 0;
