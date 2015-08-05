@@ -3,10 +3,12 @@ body{
   body {
   font:1em/1.5em 'Verdana', 'Arial', sans-serif;
 }
+
 img {
  width:400px;
 }
-@media screen and (max-width:900px) {
+
+/*@media screen and (max-width:900px) {
   body {
       font-size:0.8em;
   }
@@ -21,7 +23,11 @@ img {
   img {
       width:200px;
   }
-}
+}*/
+
+/*----main body styling-->*/
+
+
 body, img {
   transition:all .2s linear;
   -o-transition:all .2s linear;
@@ -419,40 +425,39 @@ i{
   margin: 0px;
 }
 
-@media all and (min-width: 901px){
-  #sideBarHidden{
+
+/*@media all and (max-width: 900px){
+
+  .container h4{
     display: none;
   }
-}
 
-@media all and (max-width: 1200px){
-  .container{
-    width: 95%;
-  }
-  #popularPosts li{
-    width: 50%;
-    height: 500px;
-  }
-  #popularPosts p{
-    font-size: 2.75em;
-  }
-  #shareBlock li{
-    display: block;
-    margin-top: 5px;
-    width: 175px;
-  }
-}
-
-@media all and (max-width: 900px){
-  .landingImage{
-    height: 200px;
-  }
-  header{
+  header {
     font-size: 0.70em;
+
   }
   header h1{
     font-size: 50px;
   }
+
+  #waveIcon {
+    display: none;
+  }
+
+  .landingImage {
+    width: 100%;
+    background-image: url();
+    background-color: grey;
+  }
+
+  .landingImage ul {
+    display: none;
+  }
+
+  .landingImage h1 {
+    padding-top: 21%
+  }
+
   #popularPosts li{
     height: 250px;
   }
@@ -499,44 +504,122 @@ i{
     margin: auto;
   }
 }
-
+*/
 @media all and (max-width: 550px){
-  .container{
+  .container {
     width: 100%;
   }
-  #waveIcon{
-    left: 0;
-  }
-  .landingImage h4{
-    left:0;
-  }
-  .landingImage ul{
-    right: 0;
+  #waveIcon {
+    display: none;
   }
   header{
     font-size: 0.60em;
   }
   header h1{
-    font-size: 35px;
-    padding-top: 20px;
+    font-size: 53px;
+    padding-top: 21%;
+    margin-bottom: 2px;
   }
-  header p{
-    padding-top: 20px;
+
+  header h4 {
+    display: none;
   }
-  #mainBlock h1{
-    font-size: 35px;
-  }
-  #mainBlock{
-    font-size: 0.9em;
-  }
-  #lowerMainBlock h1{
-    font-size: 35px;
-  }
-  #popularPosts li{
+
+  .landingImage {
     width: 100%;
-    height: 300px;
+    background-image: url();
+    background-color: #518D9C;
   }
+
+  .landingImage ul {
+    display: none;
+  }
+
+  .landingImage p {
+    font-size: 22px;
+    transform: translateY(13px);
+  }
+
+  #mainBlock {
+    margin: 0px;
+    width: 100%;
+    background-color: rgba(191,216,223,0.7);
+    padding-top: 10px;
+  }
+
+  #mainBlock h1{
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+
+  #mainBlock p {
+    display: none;
+  }
+
+  #mainBlock img {
+    display: none;
+  }
+
+  #shareBlock {
+    width: 100%;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+
+  .block {
+    display: none;
+    visibility: hidden;
+  }
+
+  #postInfo {
+    display: none;
+  }
+
+  #sideBar {
+    display: none;
+  }
+
+  #lowerMainBlock {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+
+  #lowerMainBlock h1{
+    font-size: 2em;
+  }
+
+  #lowerMainBlock ul {
+    width: 23%;
+  }
+
+#Posts ul {
+  -webkit-padding-start: 0px;
+}
+
+footer {
+  -webkit-padding-start: 10px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
   #nav{
+    display: inline-block;
+    margin-top: 0px;
+    right: 0px;
     font-size: .7em;
+    float: left;
+    text-align: left;
+    padding : 5px, 0px, 0px, 0px;
+  }
+
+  #copyright {
+    mmargin-left: 12px;
+    
+    text-align: right;
   }
 }
